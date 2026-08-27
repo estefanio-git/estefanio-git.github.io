@@ -3,14 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Site</title>
-    <!-- Conexão com o CSS -->
+    <title>Estefanio - Perfil</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Meu site estilizado!</h1>
+    <div class="card">
+        <!-- Puxa a foto do seu perfil do GitHub automaticamente -->
+        <img src="https://github.com/estefanio-git.png" alt="Foto de perfil" class="profile-img">
+        
+        <h1>Estefanio Miko</h1>
+        <p class="description">Desenvolvedor em aprendizado. Bem-vindo ao meu site oficial no GitHub Pages!</p>
 
-    <!-- Conexão com o JavaScript -->
+        <div class="info">
+            <p>📍 Brasil</p>
+            <p>✉️ <span id="email-text">contato@exemplo.com</span></p>
+        </div>
+
+        <div class="links">
+            <a href="https://github.com/estefanio-git" target="_blank" class="btn">Meu GitHub</a>
+            <a href="https://linkedin.com" target="_blank" class="btn">Meu LinkedIn</a>
+            <button id="copy-btn" class="btn btn-action">Copiar E-mail</button>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
